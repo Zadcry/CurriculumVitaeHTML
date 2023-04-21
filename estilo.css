@@ -23,3 +23,8 @@ aside *{
 main *{
 	color: #062446;
 }
+
+aside img{
+	border-radius: 50%;
+	border: 2px solid white;
+}
