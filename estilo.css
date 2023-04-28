@@ -9,15 +9,19 @@ body{
 
 aside{
     width: 300px;
-    padding: 10px 10px 320px 10px;
-    margin: 10px;
-    float: left;
+    
+    display: inline-block;
     background-color: #062446;
 }
 
 
 aside *{
 	color: white;
+}
+
+main{
+	display: inline-block;
+	width: 650px;
 }
 
 main *{
