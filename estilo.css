@@ -1,16 +1,20 @@
+*{
+
+}
 body{
 	margin: 0 auto;
 	max-width: 1000px;
 	font-family: "Helvetica", "Arial", sans-serif;
 	line-height: 1.5;
-	padding: 10px 40px;
-	border: 1px solid red;
+	padding: 1px;
+	border: 5px ridge black;
 }
 
 aside{
+	display: flex;
+	flex-direction: column;
     width: 300px;
-    
-    display: inline-block;
+    padding: 10px 20px;
     background-color: #062446;
 }
 
@@ -19,9 +23,20 @@ aside *{
 	color: white;
 }
 
+body{
+	display: flex;
+	align-items: stretch;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
 main{
-	display: inline-block;
-	width: 650px;
+	width: 700px;
+	padding: 10px 50px;
 }
 
 main *{
@@ -32,3 +47,71 @@ aside img{
 	border-radius: 50%;
 	border: 2px solid white;
 }
+
+aside h3{
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+aside li{
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+main h1{
+	margin: 2px 0px;
+	padding: 2px 0px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+main h3{
+	margin: 5px 0px;
+	padding: 5px 0px;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+main h4{
+	margin: 1px 0px;
+	padding: 1px 0px;
+}
+
+main p{
+	margin: 1px 0px;
+	padding: 1px 0px;
+}
+
+section article{
+	padding: 10px 0px;
+}
+
+section article:nth-child(3) p{
+	font-style: italic;
+	font-size: 15px;
+}
+
+section div article:first-child{
+	width: 250px;
+}
+
+section div article:first-child p{
+	font-style: italic;
+	font-size: 15px;
+}
+
+section div article:last-child hr{
+	width: 250px;
+}
+
+main div{
+	display: flex;
+	justify-content: space-between;
+}
+
+.sideText{
+	text-align: right;
+	font-style: italic;
+	font-size: 13px;
+}
+
